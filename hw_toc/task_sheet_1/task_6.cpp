@@ -5,8 +5,6 @@
 
 using namespace std;
 
-const double pi = 3.14159265358979323846264338327950288419716;
-
 double compErr(float x, float h){
 
     double function = (exp(x+h)-exp(x-h))/((x+h)-(x-h));
@@ -17,12 +15,15 @@ double compErr(float x, float h){
 
 int main(){
 
+    //stating what the function is, its derivative, and its value at a given point
     cout << endl << "f(x) = e^(x)" << endl;
     cout << "f'(x) = e^(x) => f'(1) = e = " << exp(1) << endl << endl;
+    
     double y = 1.0;
     double k;
     k = 1.0;
     int iter = 1;
+    
     while(exp(1.0) != compErr(y,k) && iter <= 60){
 
       cout << "Iteration: " << iter << endl;
