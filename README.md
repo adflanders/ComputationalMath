@@ -1,2 +1,2 @@
-# math4610
-Repository for math 4610
+# Adam's Repository for Math 4610
+
