@@ -8,6 +8,6 @@
 
 [Task 9)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/piExp.cpp) Use the central difference form for computing the derivative of f(x)=e^(x) and then evaluate f'(x) at f'(pi). Use the absolute and relative error routines from [adamslib.a](https://github.com/adflanders/math4610/blob/master/srcLibrary/adamslib.a).
 
-[Task 10)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/task_10.txt) Write about our findings online regarding what absolute and relavtive error is along with how they are used.
+[Task 10)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/abs&rel.txt) Write about our findings online regarding what absolute and relavtive error is along with how they are used.
 
 Tasks not listed here were simply tasks based off of sending emails and getting things such as getting this repository set up.
