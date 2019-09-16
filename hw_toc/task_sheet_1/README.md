@@ -1,5 +1,7 @@
 # Tasks predicated off of the list given [here](https://jvkoebbe.github.io/math4610/tasksheets/html/tasksheet_01.html)
 
+* Notes for Dr. Koebbe: The shared library is still a work in progress and I am trying to resolve the problems. That said, all the cpp files that hold the actual functions are located [here](https://github.com/adflanders/math4610/tree/master/src) if you wish to grade/look at them for confirmation.
+
 [Task 4)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/whatLang.cpp) Show which coding language we plan on using via a program.
 
 [Task 6)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/centDer.cpp) Use the central difference form for computing a derivative to show how machince precision collapses as h -> (infinity). 
