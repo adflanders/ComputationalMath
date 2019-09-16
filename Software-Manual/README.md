@@ -11,4 +11,4 @@ The basic routines and methods/functions that will be used throughout this cours
 * absolute error
 * relative error
 
-Can be found  [here](https://github.com/adflanders/math4610/tree/master/src)
+Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibrary)
