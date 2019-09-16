@@ -1,4 +1,4 @@
-# tasks predicated off of the list given [here](https://jvkoebbe.github.io/math4610/tasksheets/html/tasksheet_01.html)
+# Tasks predicated off of the list given [here](https://jvkoebbe.github.io/math4610/tasksheets/html/tasksheet_01.html)
 
 [Task-4)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/task_4.cpp) Show which coding language we plan on using via a program.
 
