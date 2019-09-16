@@ -36,6 +36,7 @@ int main(){
     // for k = 21 (21st Iteration) is closely approximated to exp(pi)
 
     k = pow(0.75,21);
+    
     errabs(compErr(y,k),exp(pi));
     errrel(compErr(y,k),exp(pi));
     smaceps();
