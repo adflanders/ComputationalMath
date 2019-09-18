@@ -1,6 +1,7 @@
 # Tasks predicated off of the list given [here](https://jvkoebbe.github.io/math4610/tasksheets/html/tasksheet_01.html)
 
 * Notes for Dr. Koebbe: The shared library is still a work in progress and I am trying to resolve the problems. That said, all the cpp files that hold the actual functions are located [here](https://github.com/adflanders/math4610/tree/master/src) if you wish to grade/look at them for confirmation.
+* More Notes: I know in class you asked us to simply copy and past our code onto here for you to look at, but I was having trouble doing that due to syntax from c++ messing with markdown. In the mean time any task that displays code is hyperlinked to the codes file through the tasks number. If you want me to try and just do copy paste I will, or else I can come talk to you about the issues I am having with it. I'm sorry for the inconvenience.
 
 Task 1) Emailed you my [github page](https://adflanders.github.io/).
 
