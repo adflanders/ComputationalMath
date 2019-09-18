@@ -1,4 +1,4 @@
-//for the fuction f(x) =  e^(x)
+//for the fuction f(x) =  e^(pi)
 #include "src.h"
 #include <iostream>
 #include <math.h>
