@@ -21,4 +21,4 @@ Task 5) Emailed you my math4610 repo's table of contents for homework.
 
 [Task 9)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/piExp.cpp) Use the central difference form for computing the derivative of f(x)=e^(x) and then evaluate f'(x) at f'(pi). Use the absolute and relative error routines from [adamslib.a](https://github.com/adflanders/math4610/blob/master/srcLibrary/adamslib.a).
 
-[Task 10)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/abs&rel.txt) Write about our findings online regarding what absolute and relavtive error is along with how they are used.
+[Task 10)](https://github.com/adflanders/math4610/blob/master/hw_toc/task_sheet_1/abs&rel.md) Write about our findings online regarding what absolute and relavtive error is along with how they are used.
