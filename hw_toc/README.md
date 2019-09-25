@@ -8,6 +8,6 @@
 
 ## Task Sheet 2
 
-* temp for hw 2
+* Setting up fixed point iteration and bisection methods to solve equations. 
 
 [HW_2](https://github.com/adflanders/math4610/tree/master/hw_toc/task_sheet_2)
