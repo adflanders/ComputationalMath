@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
 
-  double one = 1.0;
-  double eps = 1.0;
-  double diff;
+  float one = 1.0;
+  float eps = 1.0;
+  float diff;
 
   for(int i=0;i<1000;i++){
 
