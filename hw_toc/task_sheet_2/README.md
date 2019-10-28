@@ -110,7 +110,7 @@ int main(){
 
 ```
 **Task 5)**
-I have added the single and double machine precision routines to my (software manual page)[https://github.com/adflanders/math4610/tree/master/Software-Manual]
+I have added the single and double machine precision routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
 
 **Task 6)**
-I have added the absolute and relative error routines to my (software manual page)[https://github.com/adflanders/math4610/tree/master/Software-Manual]
+I have added the absolute and relative error routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
