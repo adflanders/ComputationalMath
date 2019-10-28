@@ -16,4 +16,4 @@
 
 * Working with and understanding newton and secant methods
 
-[HW_2](https://github.com/adflanders/math4610/tree/master/hw_toc/task_sheet_3)
+[HW_3](https://github.com/adflanders/math4610/tree/master/hw_toc/task_sheet_3)
