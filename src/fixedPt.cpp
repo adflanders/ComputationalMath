@@ -25,7 +25,5 @@ for(int i=0; i < maxItter; i++){
   cout << "i: " << i << endl << "----------" << endl;
 }
 
-
-
 return 0;
 }

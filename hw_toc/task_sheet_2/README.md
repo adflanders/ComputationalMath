@@ -15,9 +15,9 @@ x'cos(x') + x'^3 - pi = 0
 such that
 ```
 xcos(x) + x^3 = pi
-=> f(x) = xcos(x) + x^3 - pi  
+=> f(x) = xcosh(x) + x^3 - pi  
 => x = x - f(x) = g(x)
-=> g(x) = x - xcos(x) - x^3 + pi
+=> g(x) = x - xcosh(x) - x^3 + pi
 ```
 Now using 2 sets of fixed point iteration we will have
 ```
