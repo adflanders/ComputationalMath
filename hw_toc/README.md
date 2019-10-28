@@ -8,6 +8,12 @@
 
 ## Task Sheet 2
 
-* Setting up fixed point iteration and bisection methods to solve equations. 
+* Setting up fixed point iteration and bisection methods to solve equations.
 
 [HW_2](https://github.com/adflanders/math4610/tree/master/hw_toc/task_sheet_2)
+
+## Task Sheet 3
+
+* Working with and understanding newton and secant methods
+
+[HW_2](https://github.com/adflanders/math4610/tree/master/hw_toc/task_sheet_3)
