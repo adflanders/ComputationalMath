@@ -2,7 +2,7 @@
 
 * Notes for Dr. Koebbe: *temp*
 
-**Task 1)** for 
+**Task 1)** for
 ```
 xcos(x) + x^3 = pi  
 ```
@@ -17,7 +17,7 @@ such that
 xcos(x) + x^3 = pi
 => f(x) = xcos(x) + x^3 - pi  
 => x = x - f(x) = g(x)
-=> g(x) = x - xcos(x) + x^3 - pi
+=> g(x) = x - xcos(x) - x^3 + pi
 ```
 Now using 2 sets of fixed point iteration we will have
 ```
