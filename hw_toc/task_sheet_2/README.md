@@ -10,7 +10,7 @@ find a value x' such that
 ```
 x'cos(x') + x'^3 - pi = 0
 ```
-
+<br/>
 **Task 2)** Setting up 2 fixed point iterations first requires finding some g(x)
 such that
 ```
@@ -25,7 +25,7 @@ x1 = g(x0)
 => x2 = g(x1)
 ```
 going until |x(k+1) - xk| < tolerance
-
+<br/>
 **Task 3)**
 
 ```
@@ -59,6 +59,7 @@ for(int i=0; i < maxItter; i++){
 return 0;
 }
 ```
+<br/>
 **Task 4)**
 ```
 #include <iostream>
@@ -109,20 +110,24 @@ int main(){
 }
 
 ```
+<br/>
 **Task 5)**
 I have added the single and double machine precision routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-
+<br/>
 **Task 6)**
 I have added the absolute and relative error routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-
+<br/>
 **Task 7)**
 I added the fixed point iteration method to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-
+<br/>
 **Task 8)**
 I added the bisection method to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-
+<br/>
 **Task 9)**
 I found bisection to work faster and better, but only really faster if I had an adequate guess of where the interval should be and also to make sure it wasn't too large. Maybe it was partially due to how I coded both of them, but I also found the bisection to be more reliable/easier to work with.
-
+<br/>
 **Task 10)**
-[Cited Source](http://wwwf.imperial.ac.uk/metric/metric_public/numerical_methods/iteration/fixed_point_iteration.html):
+While this website didnt really go over any new information, it had very helpful examples and visuals that pointed to how fixed point iteration(FPI) works. Particularly, I enjoyed how it explained that FPI is best used for equations that dont have algebraic solutions, such as x = cos(x). It also went over the taylor series portion that we did in class which also helped cement and remind myslef on how that works.
+<br/> <br/>
+Cited Source:
+[wwwf.imperial.ac.uk](http://wwwf.imperial.ac.uk/metric/metric_public/numerical_methods/iteration/fixed_point_iteration.html)
