@@ -15,12 +15,13 @@ void bisection(double a, double b)
         return;
     }
 
+    int i = 0;
     double eps = 0.0001;
     double c = a;
     while ((b-a) >= eps){
 
         c = (a+b)/2;
-
+        i++;
         if (func(c) == 0.0){
             break;
         }
@@ -34,7 +35,7 @@ void bisection(double a, double b)
         }
 
     }
-    cout << "The value of root is : " << c;
+    cout << "The value of root is : " << c << ". at i = " << i;
 }
 
 int main(){

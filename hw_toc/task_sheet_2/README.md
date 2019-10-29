@@ -59,7 +59,7 @@ for(int i=0; i < maxItter; i++){
 return 0;
 }
 ```
-**Task 3)**
+**Task 4)**
 ```
 #include <iostream>
 
@@ -114,3 +114,15 @@ I have added the single and double machine precision routines to my [software ma
 
 **Task 6)**
 I have added the absolute and relative error routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
+
+**Task 7)**
+I added the fixed point iteration method to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
+
+**Task 8)**
+I added the bisection method to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
+
+**Task 9)**
+I found bisection to work faster and better, but only really faster if I had an adequate guess of where the interval should be and also to make sure it wasn't too large. Maybe it was partially due to how I coded both of them, but I also found the bisection to be more reliable/easier to work with.
+
+**Task 10)**
+[Cited Source](http://wwwf.imperial.ac.uk/metric/metric_public/numerical_methods/iteration/fixed_point_iteration.html):

@@ -12,3 +12,7 @@ The basic routines and methods/functions that will be used throughout this cours
 * relative error
 
 Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibrary)
+
+## Root Finding Routines
+* [Fixed point](https://github.com/adflanders/math4610/blob/master/src/fixedPt.cpp)
+* [Bisection](https://github.com/adflanders/math4610/blob/master/src/bisect.cpp)
