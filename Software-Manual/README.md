@@ -16,3 +16,5 @@ Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibra
 ## Root Finding Routines
 * [Fixed point](https://github.com/adflanders/math4610/blob/master/src/fixedPt.cpp)
 * [Bisection](https://github.com/adflanders/math4610/blob/master/src/bisect.cpp)
+* [Newtons method](https://github.com/adflanders/math4610/blob/master/src/newton.cpp)
+* [Secant method](https://github.com/adflanders/math4610/blob/master/src/secant.cpp)
