@@ -10,7 +10,6 @@ find a value x' such that
 ```
 x'cos(x') + x'^3 - pi = 0
 ```
-<br/>
 **Task 2)** Setting up 2 fixed point iterations first requires finding some g(x)
 such that
 ```
@@ -25,7 +24,7 @@ x1 = g(x0)
 => x2 = g(x1)
 ```
 going until |x(k+1) - xk| < tolerance
-<br/>
+
 **Task 3)**
 
 ```
@@ -59,7 +58,6 @@ for(int i=0; i < maxItter; i++){
 return 0;
 }
 ```
-<br/>
 **Task 4)**
 ```
 #include <iostream>
@@ -110,7 +108,6 @@ int main(){
 }
 
 ```
-<br/>
 **Task 5)**
 I have added the single and double machine precision routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
 <br/>
