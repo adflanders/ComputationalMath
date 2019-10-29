@@ -113,3 +113,5 @@ int main(){
   return 0;
 }
 ```
+**Task 3)**
+As expexted, when it comes to speed alone, Fixed point <= Bisection < Secant method < Newtons method. This only holds true when both Secant and Newtons method are actually close to a root, otherwise they wont work and then cause the user to rely on Bisection and or Fixed point iteration to find the root, or get close enough for Secant or Newtons method to take over.
