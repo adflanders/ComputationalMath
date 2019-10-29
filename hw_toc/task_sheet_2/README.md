@@ -110,19 +110,24 @@ int main(){
 ```
 **Task 5)**
 I have added the single and double machine precision routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-<br/>
+
+
 **Task 6)**
 I have added the absolute and relative error routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-<br/>
+
+
 **Task 7)**
 I added the fixed point iteration method to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-<br/>
+
+
 **Task 8)**
 I added the bisection method to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
-<br/>
+
+
 **Task 9)**
 I found bisection to work faster and better, but only really faster if I had an adequate guess of where the interval should be and also to make sure it wasn't too large. Maybe it was partially due to how I coded both of them, but I also found the bisection to be more reliable/easier to work with.
-<br/>
+
+
 **Task 10)**
 While this website didnt really go over any new information, it had very helpful examples and visuals that pointed to how fixed point iteration(FPI) works. Particularly, I enjoyed how it explained that FPI is best used for equations that dont have algebraic solutions, such as x = cos(x). It also went over the taylor series portion that we did in class which also helped cement and remind myslef on how that works.
 <br/> <br/>
