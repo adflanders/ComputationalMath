@@ -18,5 +18,5 @@ Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibra
 * [Bisection](https://github.com/adflanders/math4610/blob/master/src/bisect.cpp)
 * [Newtons method](https://github.com/adflanders/math4610/blob/master/src/newton.cpp)
 * [Secant method](https://github.com/adflanders/math4610/blob/master/src/secant.cpp)
-* Hybrid method with biscetion and newtons method
-* Hybrid method with biscetion and secant method
+* [Hybrid method with biscetion and newtons method](https://github.com/adflanders/math4610/blob/master/src/biNewton.cpp)
+* [Hybrid method with biscetion and secant method](https://github.com/adflanders/math4610/blob/master/src/biSecant.cpp)
