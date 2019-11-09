@@ -122,6 +122,7 @@ I viewed how many iterations it took for the methods to solve the roots of f(x) 
 it should be noted that these methods do depend on a starting place, so I made sure to have all the starting conditions start relatively close to the root of f(x) which is -1
 
 **Task 4)**
+```
 #include <iostream>
 #include <math.h>
 
@@ -207,3 +208,4 @@ biNewton(100000,-100000,100);
 return 0;
 
 }
+```
