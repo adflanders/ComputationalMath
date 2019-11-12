@@ -6,10 +6,14 @@ Table of contents that can guide the user throughout all the code/programs conta
 
 The basic routines and methods/functions that will be used throughout this course.
 ### Shared library containing functions such as,
+
 * smaceps
 * dmaceps
 * absolute error
+  - shows exactly how far off an estimate is by the form of |x-x*|
 * relative error
+  - shows how relatively far off an estimate is by the form of |x-x*|/x
+  and gives back a percentage. This is best used for bigger numbers. 
 
 Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibrary)
 
@@ -18,5 +22,5 @@ Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibra
 * [Bisection](https://github.com/adflanders/math4610/blob/master/src/bisect.cpp)
 * [Newtons method](https://github.com/adflanders/math4610/blob/master/src/newton.cpp)
 * [Secant method](https://github.com/adflanders/math4610/blob/master/src/secant.cpp)
-* [Hybrid method with biscetion and newtons method](https://github.com/adflanders/math4610/blob/master/src/biNewton.cpp)
-* [Hybrid method with biscetion and secant method](https://github.com/adflanders/math4610/blob/master/src/biSecant.cpp)
+* [Hybrid method with bisection and newtons method](https://github.com/adflanders/math4610/blob/master/src/biNewton.cpp)
+* [Hybrid method with bisection and secant method](https://github.com/adflanders/math4610/blob/master/src/biSecant.cpp)
