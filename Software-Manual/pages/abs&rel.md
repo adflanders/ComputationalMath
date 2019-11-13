@@ -1,4 +1,4 @@
-# Absoluter error routine:
+# Absolute error routine:
 
 **Purpose**
 - Used for finding the error in approximation for a solution when there is a known solution. Best used for larger numbers, otherwise
