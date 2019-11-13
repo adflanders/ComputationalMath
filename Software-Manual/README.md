@@ -18,8 +18,8 @@ The basic routines and methods/functions that will be used throughout this cours
 Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibrary)
 
 ## Root Finding Routines
-* [Fixed point](https://github.com/adflanders/math4610/blob/master/src/fixedPt.cpp)
-* [Bisection](https://github.com/adflanders/math4610/blob/master/src/bisect.cpp)
+* [Fixed point](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/fixedPoint.md)
+* [Bisection](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/bisection.md)
 * [Newtons method](https://github.com/adflanders/math4610/blob/master/src/newton.cpp)
 * [Secant method](https://github.com/adflanders/math4610/blob/master/src/secant.cpp)
 * [Hybrid method with bisection and newtons method](https://github.com/adflanders/math4610/blob/master/src/biNewton.cpp)
