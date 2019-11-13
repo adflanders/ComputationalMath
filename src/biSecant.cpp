@@ -3,8 +3,7 @@
 
 using namespace std;
 
-// function is f(x) = 2x^3 + 3x - 3
-// f'(x) = 6x^2 + 3
+// function is f(x) = x^3 - x^2 + 2
 
 double function(double x){
   return x*x*x - x*x + 2;
@@ -22,9 +21,14 @@ int biSecant(double a, double b, int maxitter){
       return 0;
   }
 
+  // k is just the middle point of a and b
+  double k = abs(a)+abs(b);
+  k = k/2;
+
   int i = 0;
   double eps = 0.0001;
   double c = a;
+
   while (abs(b-a) > eps){
       c = (a+b)/2;
       i++;
@@ -41,7 +45,7 @@ int biSecant(double a, double b, int maxitter){
         a = c;
       }
 
-      if(abs(a-b)<10){
+      if(abs(a-b)<k){
 
         x0=a;
         x1=b;
@@ -61,21 +65,21 @@ int biSecant(double a, double b, int maxitter){
           xn = x1 - (function(x1)*(x1-x0)/(function(x1)-function(x0)));
 
           if(xn==x1){
-          cout << "The root is: " << xn << " at the " << i+j << " itteration";
+          cout << "The FINAL root is: " << xn << " at the " << i+j << " itteration";
             return 0;
           }
 
           x0 = x1;
           x1 = xn;
-
-          cout << "current: " << xn << " i: " << i+j << endl << "---------" << endl;
+          
+          if(abs(a-b)<abs(x0-x1)){
+            cout << "The root is: " << xn << " at the " << i+j << " itteration" << endl;
+            cout << "----------------" << endl;
+            k = k/10;
+            break;
+          }
 
         }
-
-        cout << "The root is: " << xn << " at the " << maxitter+i << " max allowed itteration";
-
-        return 0;
-
 
       }
 

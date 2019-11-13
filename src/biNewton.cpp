@@ -3,8 +3,8 @@
 
 using namespace std;
 
-// function is f(x) = 2x^3 + 3x - 3
-// f'(x) = 6x^2 + 3
+// function is f(x) = x^3 - x^2 + 2
+// f'(x) = 3x^2 - 2x
 
 double function(double x){
   return x*x*x - x*x + 2;
@@ -18,16 +18,13 @@ int biNewton(double a, double b, int maxitter){
 
   double x0;
   double xn;
-
-  if (function(a) * function(b) >= 0){
-
-      cout << "You have not assumed right a and b\n";
-      return 0;
-  }
+  double k = abs(a)+abs(b);
+  k = k/2;
 
   int i = 0;
   double eps = 0.0001;
   double c = a;
+
   while (abs(b-a) > eps){
       c = (a+b)/2;
       i++;
@@ -43,29 +40,34 @@ int biNewton(double a, double b, int maxitter){
       else{
         a = c;
       }
-      if(abs(a-b)<1000){
-        xn=a;
-        x0=b;
+      if(abs(a-b)<k){
+
+        x0 = a;
+
         if(function(x0)==0.0){
-          cout << "The root is: " << function(x0);
+          cout << "The root is: " << x0;
           return 0;
         }
 
         for(int j = 0; j < maxitter; j++){
 
-        xn = x0 - function(x0)/der(x0);
+          xn = x0 - function(x0)/der(x0);
 
-        if(xn==x0){
-        cout << "The root is: " << xn << " at the " << i+j << " itteration";
-          return 0;
+          if(xn==x0){
+          cout << "The FINAL root is: " << xn << " at the " << i+j << " itteration";
+            return 0;
+          }
+
+          if(abs(a-b)<abs(x0-xn)){
+            cout << "The root is: " << xn << " at the " << i+j << " itteration" << endl;
+            cout << "----------------" << endl;
+            k = k/10;
+            break;
+          }
+
+          x0 = xn;
+
         }
-
-        x0 = xn;
-        cout << "current: " << xn << " iteration: " << i+j << endl << "---------" << endl;
-
-        }
-
-        cout << "The root is: " << xn << " at the " << maxitter+i << " itteration";
 
       }
 
