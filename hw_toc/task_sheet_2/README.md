@@ -108,16 +108,18 @@ int main(){
 }
 
 ```
+- The value of root is : -1.00006. at i = 23
+
 **Task 5)**
 I have added the single and double machine precision routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
 
 
 **Task 6)**
-I have added the absolute and relative error routines to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
+I have added the absolute and relative error routines to my [software manual page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/abs%26rel.md)
 
 
 **Task 7)**
-I added the fixed point iteration method to my [software manual page](https://github.com/adflanders/math4610/tree/master/Software-Manual)
+I added the fixed point iteration method to my [software manual page]https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/fixedPoint.md)
 
 
 **Task 8)**
