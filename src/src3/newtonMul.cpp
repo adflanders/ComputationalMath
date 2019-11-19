@@ -35,13 +35,30 @@ double newton(double x0){
     x0 = xn;
 
   }
+
   return xn;
+
 }
 
 int main(){
 
+  int root = 0;
+  int maxiter = 1000;
   double a = 1.1;
   double b = 68.3;
+
+  while(a <= b && root < maxiter){
+    if(newton(a) < a){
+      a++;
+    }
+    else if(newton(a) > a){
+      root++;
+      cout << newton(a) << " is a root. #" << root << endl;
+      cout << "---------------------\n";
+      a++;
+    }
+
+  }
 
   return 0;
 
