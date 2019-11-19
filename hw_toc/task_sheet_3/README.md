@@ -601,3 +601,7 @@ Having issue with this code. Still working on it as it is only stuck on one rout
 
 **Task 10)**
 
+This published paper describes how newtons method was used in solving systems of linear equations in finding the "flow of real and reactive power in a power grid." One thing that caught my eye was the use of 3, 4, and 5 step methods. It was also reported multiple times that they did not require a jacobian matrix due to the coefficients being close. However, when applied, the accuracy increased.
+
+source:
+[http://article.sapub.org/10.5923.j.eee.20140401.01.html](http://article.sapub.org/10.5923.j.eee.20140401.01.html)
