@@ -9,7 +9,7 @@
 
 ## Output
 
-returns a single double value, which is the total sum.
+- Returns a single double value, which is the total sum.
 
 ## Code
 
