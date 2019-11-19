@@ -24,3 +24,7 @@ Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibra
 * [Secant method](https://github.com/adflanders/math4610/blob/master/src/secant.cpp)
 * [Hybrid method with bisection and newtons method](https://github.com/adflanders/math4610/blob/master/src/biNewton.cpp)
 * [Hybrid method with bisection and secant method](https://github.com/adflanders/math4610/blob/master/src/biSecant.cpp)
+
+## Vector routines
+
+* [1-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/1norm.md)
