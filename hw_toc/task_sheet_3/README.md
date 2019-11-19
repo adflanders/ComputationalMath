@@ -395,4 +395,209 @@ int main(){
 68.2995 is a root. #9  
 68.3 is a root. #10  
 
+**Task 8)**
+
+```
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+double pi = 3.1415926535897932;
+
+double function(double x){
+  return sin(pi*x*x+3.7);
+}
+
+double der(double x){
+  return cos(pi*x*x+3.7)*2*pi*x;
+}
+
+double newton(double x0){
+
+  int maxitter = 100;
+  double xn = 0.0;
+  double eps = 0.000001;
+
+
+  if(function(x0)==0.0){
+    return x0;
+  }
+
+  for(int i = 0; i < maxitter; i++){
+
+    xn = x0 - function(x0)/der(x0);
+
+    if(abs(xn-x0) < eps){
+      return xn;
+    }
+
+    x0 = xn;
+
+  }
+
+  return xn;
+
+}
+
+int main(){
+
+  int root = 0;
+  int maxiter = 1000;
+  double a = 1.1;
+  double b = 68.3;
+
+  while(a <= b && root < maxiter){
+    if(newton(a) < a){
+      a++;
+    }
+    else if(newton(a) > a){
+      root++;
+      cout << newton(a) << " is a root. #" << root << endl;
+      cout << "---------------------\n";
+      a++;
+    }
+
+  }
+
+  return 0;
+
+}
+```
+
+- output:
+2.41293 is a root. #1  
+3.13405 is a root. #2  
+4.10149 is a root. #3  
+6.31049 is a root. #4  
+7.19877 is a root. #5  
+8.11309 is a root. #6  
+9.10067 is a root. #7  
+11.2615 is a root. #8  
+12.1582 is a root. #9  
+13.1081 is a root. #10  
+14.1004 is a root. #11  
+16.2118 is a root. #12  
+17.1412 is a root. #13  
+18.1059 is a root. #14  
+19.1003 is a root. #15  
+21.1854 is a root. #16  
+22.1319 is a root. #17  
+23.1046 is a root. #18  
+24.1003 is a root. #19  
+26.1691 is a root. #20  
+27.126 is a root. #21  
+28.1038 is a root. #22  
+29.1002 is a root. #23  
+31.158 is a root. #24  
+32.122 is a root. #25  
+33.1032 is a root. #26  
+34.1002 is a root. #27  
+36.15 is a root. #28  
+37.119 is a root. #29  
+38.1028 is a root. #30  
+39.1002 is a root. #31  
+41.1439 is a root. #32  
+42.1168 is a root. #33  
+43.1025 is a root. #34  
+44.1001 is a root. #35  
+46.1392 is a root. #36  
+47.115 is a root. #37  
+48.1022 is a root. #38  
+49.1001 is a root. #39  
+51.1353 is a root. #40  
+52.1136 is a root. #41  
+53.102 is a root. #42  
+54.1001 is a root. #43  
+56.1322 is a root. #44  
+57.1124 is a root. #45  
+58.1018 is a root. #46  
+59.1001 is a root. #47  
+61.1296 is a root. #48  
+62.1114 is a root. #49  
+63.1017 is a root. #50  
+64.1001 is a root. #51  
+66.1273 is a root. #52  
+67.1105 is a root. #53  
+68.1016 is a root. #54  
+
+- Found SIGNIFICANTLY more routes with this routine.
+
+**Task 9)**
+
+```
+
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+double function(double x){
+  return 2*x*x*x + 3*x - 3;
+}
+
+double secant(double x0, double x1){
+
+  int maxitter = 1000;
+  double xn = 0.0;
+  double eps = 0.00001;
+
+  if(function(x0)<eps){
+    return x0;
+  }
+  else if(function(x1)<eps){
+    return x1;
+  }
+
+  for(int i = 0; i < maxitter; i++){
+
+    xn = x1 - (function(x1)*(x1-x0)/(function(x1)-function(x0)));
+
+    if(abs(xn-x1)<eps){
+      return xn;
+    }
+
+    x0 = x1;
+    x1 = xn;
+
+  }
+
+  return xn;
+
+}
+
+int main(){
+
+  int root = 0;
+  int maxiter = 1000;
+  double a = 1.1;
+  double b = 68.3;
+  double tmpA;
+  double tmpB;
+
+   while(a <= b && root < maxiter){
+    if(secant(a,a+1) < 1.1){
+      a++;
+      cout << a << endl;
+    }
+    else if(secant(a,a+1) > a){
+      root++;
+      cout << secant(a,a+1) << " is a root. #" << root << endl;
+      cout << "---------------------\n";
+      cout << a << endl;
+      a++;
+    }
+
+  }
+
+  return 0;
+
+}
+
+```
+
+- output:
+Having issue with this code. Still working on it as it is only stuck on one route and not progressing.
+
+**Task 10)**
 
