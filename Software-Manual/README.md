@@ -21,7 +21,7 @@ Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibra
 * [Fixed point](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/fixedPoint.md)
 * [Bisection](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/bisection.md)
 * [Newtons method](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/newton.md)
-* [Secant method](https://github.com/adflanders/math4610/blob/master/src/secant.cpp)
+* [Secant method](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/secant.md)
 * [Hybrid method with bisection and newtons method](https://github.com/adflanders/math4610/blob/master/src/biNewton.cpp)
 * [Hybrid method with bisection and secant method](https://github.com/adflanders/math4610/blob/master/src/biSecant.cpp)
 
