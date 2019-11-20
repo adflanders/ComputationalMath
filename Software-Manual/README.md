@@ -27,6 +27,9 @@ Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibra
 
 ## Vector routines
 
-* [1-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/1norm.md)
-* [2-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/2norm.md)
-* [inf-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/infNorm.md)
+* [1-norm page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/1norm.md)  
+ [absolute error and relative error page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/1normerr.md)  
+* [2-norm page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/2norm.md)  
+ [absolute error and relative error page]()  
+* [inf-norm page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/infNorm.md)  
+ [absolute error and relative error page]()  
