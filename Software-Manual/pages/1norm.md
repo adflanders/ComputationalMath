@@ -22,4 +22,4 @@ for relative error we will have (|x|-|x*|)/|x|
 
 [absolute error](https://github.com/adflanders/math4610/blob/master/src/src4/absnorm1.cpp)
 
-[relative error]()https://github.com/adflanders/math4610/blob/master/src/src4/relnorm1.cpp
+[relative error](https://github.com/adflanders/math4610/blob/master/src/src4/relnorm1.cpp)
