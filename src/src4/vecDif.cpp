@@ -24,12 +24,12 @@ int main(){
   vector<double> dif;
 
   for(int i = 0; i < k.size(); i++){
-    dif.push_back(abs(k[i]-t[i]));
+    dif.push_back(k[i]-t[i]);
   }
 
-  cout << "Absolute difference of vectors k and i:\n" << "-----------------\n";
+  cout << "Difference of vectors k and i:\n" << "-----------------\n";
 
-  for(int i = 0; i < sum.size(); i++){
+  for(int i = 0; i < dif.size(); i++){
     cout << dif[i] << endl;
   }
 
