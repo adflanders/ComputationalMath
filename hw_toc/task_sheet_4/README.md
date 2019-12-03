@@ -178,4 +178,148 @@ int main(){
 - output:  
 Actual norm1: 49.2461  
 Estimated norm1: 50  
-0.0153093 is the relative error.  
+0.0153093 is the relative error.
+
+**Task 4)**
+
+- Sum
+
+```
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <cstdlib>
+
+using namespace std;
+
+
+int main(){
+
+  vector<double> k;
+  vector<double> t;
+  srand(unsigned(time(NULL)));
+
+  //creates 2 random vectors.
+
+  for(int i = 0; i < 8; i++){
+    k.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+    t.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+  }
+
+  vector<double> sum;
+
+  for(int i = 0; i < k.size(); i++){
+    sum.push_back(k[i]+t[i]);
+  }
+
+  cout << "Sum of vectors k and i:\n" << "-----------------\n";
+
+  for(int i = 0; i < sum.size(); i++){
+    cout << sum[i] << endl;
+  }
+
+
+  return 0;
+}
+
+```
+
+- output:  
+Sum of vectors k and i:  
+-----------------  
+8.83066  
+6.11408  
+8.5765  
+15.9009  
+9.53993  
+10.7704  
+14.5185  
+7.28756  
+
+
+- Difference
+
+```
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <cstdlib>
+#include <math.h>
+
+using namespace std;
+
+
+int main(){
+
+  vector<double> k;
+  vector<double> t;
+  srand(unsigned(time(NULL)));
+
+  //creates 2 random vectors.
+
+  for(int i = 0; i < 8; i++){
+    k.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+    t.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+  }
+
+  vector<double> dif;
+
+  for(int i = 0; i < k.size(); i++){
+    dif.push_back(abs(k[i]-t[i]));
+  }
+
+  cout << "Absolute difference of vectors k and i:\n" << "-----------------\n";
+
+  for(int i = 0; i < dif.size(); i++){
+    cout << dif[i] << endl;
+  }
+
+  return 0;
+}
+```
+
+
+- Scalar
+
+```
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <cstdlib>
+#include <math.h>
+
+using namespace std;
+
+
+int main(){
+
+  vector<double> k;
+  vector<double> t;
+  srand(unsigned(time(NULL)));
+
+  //creates 2 random vectors.
+
+  for(int i = 0; i < 8; i++){
+    k.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+  }
+
+  double scal = (double)rand()/(RAND_MAX + 1.0)+1+(rand()%5);
+
+  for(int i = 0; i < k.size(); i++){
+    k[i] = k[i]*scal;
+  }
+
+  cout << "Scalar multiple of vector k:\n" << "-----------------\n";
+  cout << "Scalar: " << scal << endl;
+
+  for(int i = 0; i < k.size(); i++){
+    cout << k[i] << endl;
+  }
+
+  return 0;
+}
+
+``
