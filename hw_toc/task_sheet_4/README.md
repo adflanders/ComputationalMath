@@ -226,8 +226,7 @@ int main(){
 ```
 
 - output:  
-Sum of vectors k and i:  
------------------  
+Sum of vectors k and i:    
 8.83066  
 6.11408  
 8.5765  
@@ -281,8 +280,7 @@ int main(){
 ```
 
 - output:  
-Difference of vectors k and i:  
------------------  
+Difference of vectors k and i:    
 6.38878  
 3.17877  
 -0.102848  
@@ -338,8 +336,7 @@ int main(){
 ```
 
 - output:  
-Scalar multiple of vector k:  
------------------  
+Scalar multiple of vector k:    
 Scalar: 2.60551  
 17.5098  
 12.0998  
@@ -351,3 +348,67 @@ Scalar: 2.60551
 25.3662  
 
 **Task 5)**
+
+```
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <cstdlib>
+#include <math.h>
+
+using namespace std;
+
+double errrel(double j, double k){
+
+double m = abs(j - k);
+double t = m/j;
+
+return t;
+}
+
+int main(){
+  srand(unsigned(time(NULL)));
+
+  //setting up y = mx + b. y,x,b are vectors, m is a scalar
+
+  //vector x
+  vector<double> x;
+  //vector b
+  vector<double> b;
+  //vector y
+  vector<double> y;
+  //scalar m
+  double m = rand()%5;
+
+  //creates 2 random vectors.
+
+  for(int i = 0; i < 8; i++){
+
+    x.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+
+    b.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+
+  }
+
+  for(int i = 0; i < x.size(); i++){
+    y.push_back(m*x[i] + b[i]);
+    cout << "y[" << i << "] = " << y[i] << endl;
+  }
+
+  return 0;
+}
+
+```
+
+- output:
+```
+y[0] = 9.64994  
+y[1] = 7.30255  
+y[2] = 8.01002  
+y[3] = 1.83698  
+y[4] = 7.55513  
+y[5] = 1.33056  
+y[6] = 8.69084  
+y[7] = 2.57126  
+```
