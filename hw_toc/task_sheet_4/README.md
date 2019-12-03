@@ -359,14 +359,6 @@ Scalar: 2.60551
 
 using namespace std;
 
-double errrel(double j, double k){
-
-double m = abs(j - k);
-double t = m/j;
-
-return t;
-}
-
 int main(){
   srand(unsigned(time(NULL)));
 
