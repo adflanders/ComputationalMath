@@ -112,3 +112,70 @@ int main(){
 
 }
 ```
+
+
+**Task 3)**
+
+- Showing the 1-norm with relative error computed. Will link the norms with their respective error types. [1-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/1normerr.md),  
+
+```
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <cstdlib>
+#include <math.h>
+
+using namespace std;
+
+double errrel(double j, double k){
+
+double m = abs(j - k);
+double t = m/j;
+
+return t;
+}
+
+int main(){
+
+  //actual generated vector
+  vector<double> k;
+  //rounded off 'estimated' vector
+  vector<double> t;
+
+  srand(unsigned(time(NULL)));
+
+  //creates random vector WITH decimals, then makes one rounded off i.e 'estimated'.
+
+  for(int i = 0; i < 8; i++){
+
+    k.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+
+    t.push_back(round(k[i]));
+
+  }
+
+  double sumK = 0.0;
+  double sumT = 0.0;
+
+  for(int i = 0; i < k.size(); i++){
+    sumK = sumK + k[i];
+  }
+  cout << "Actual norm1: " << sumK << endl;
+
+  for(int i = 0; i < t.size(); i++){
+    sumT = sumT + t[i];
+  }
+  cout << "Estimated norm1: " << sumT << endl;
+
+  cout << errrel(sumK, sumT) << " is the relative error.";
+
+  return 0;
+}
+
+```
+
+- output:  
+Actual norm1: 49.2461  
+Estimated norm1: 50  
+0.0153093 is the relative error.  
