@@ -116,7 +116,7 @@ int main(){
 
 **Task 3)**
 
-- Showing the 1-norm with relative error computed. Will link the norms with their respective error types. [1-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/1normerr.md),  
+- Showing the 1-norm with relative error computed. Will link the norms with their respective error types. [1-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/1normerr.md), [2-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/2normerr.md), [inf-norm](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/infnormerr.md)
 
 ```
 #include <iostream>
