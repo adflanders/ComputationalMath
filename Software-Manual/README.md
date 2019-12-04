@@ -33,3 +33,5 @@ Can be found  [here](https://github.com/adflanders/math4610/tree/master/srcLibra
  [absolute error and relative error page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/2normerr.md)  
 * [inf-norm page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/infNorm.md)  
  [absolute error and relative error page](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/infnormerr.md)  
+* [Dot Product](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/dotprod.md)
+* [Cross Product](https://github.com/adflanders/math4610/blob/master/Software-Manual/pages/crossprod.md)
