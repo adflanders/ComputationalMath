@@ -527,5 +527,107 @@ y[0] = -42.0315
 y[1] = -16.8389  
 y[2] = 42.3905  
 
+**Task 7)**
+
+```
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <cstdlib>
+#include <math.h>
+
+using namespace std;
+
+int main(){
+  srand(unsigned(time(NULL)));
+
+  //matrix x
+  vector<double> x;
+  //vector a
+  double a[3][3];
+  //vector y
+  double y[3] = {0,0,0};
+
+  //creates the matrix (a) and vector (b)
+cout << "A = " << endl;
+  for(int i = 0; i < 3; i++){
+    for(int j = 0; j < 3; j++){
+      a[i][j] = (double)rand()/(RAND_MAX + 1.0)+1+(rand()%10);
+    }
+    x.push_back((double)rand()/(RAND_MAX + 1.0)+1+(rand()%10));
+    cout << a[i][0] << "  " << a[i][1] << "  " << a[i][2] << endl;
+  }
+
+  cout << endl << "x = " << endl;
+  for(int i = 0; i < 3; i++){
+    cout << x[i] << endl;
+  }
+
+  cout << endl << "y = " << endl;
+  //does the multiplication and creates y
+  for(int i = 0; i < 3; i++){
+    for(int j = 0; j < 3; j++){
+      y[i] = x[j]*a[i][j] + y[i];
+    }
+    cout << y[i] << endl;
+  }
+
+  return 0;
+}
+
+```
+
+- output:  
+  
+A =  
+10.2437  5.21825  10.311  
+10.9988  10.5819  2.14225  
+3.75554  6.73713  8.6418  
+  
+x =  
+6.65906  
+8.25951  
+4.44356  
+  
+y =  
+157.131  
+170.163  
+119.054  
 
 
+**Task 8)**
+
+```
+#include <omp.h>
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+
+using namespace std;
+
+int main(){
+
+    #pragma omp parallel
+    {
+      printf("Hello World... from thread = %d\n", omp_get_thread_num());
+    }
+
+    cout << "Total number of processors: " << omp_get_num_procs();
+}
+
+```
+
+- output:  
+Hello World... from thread = 1  
+Hello World... from thread = 6  
+Hello World... from thread = 7  
+Hello World... from thread = 2  
+Hello World... from thread = 3  
+Hello World... from thread = 4  
+Hello World... from thread = 0  
+Hello World... from thread = 5  
+Total number of processors: 8
+
+
+**Task 9)**
