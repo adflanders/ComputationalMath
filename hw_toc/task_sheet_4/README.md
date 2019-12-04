@@ -410,6 +410,8 @@ y[7] = 2.57126
 
 **Task 6)**
 
+- Both Dot and Cross product added to [Software-Manual](https://github.com/adflanders/math4610/blob/master/Software-Manual)
+
 - Dot Product:
 
 ```
