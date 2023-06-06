@@ -1,4 +1,4 @@
-# Machine Precision Error
+# Machine Precision Error and Calculus
 
 Repo for Adam Flanders, enrolled in Math 4610 - Fundamentals of Computational Mathematics
 
