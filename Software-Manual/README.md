@@ -1,7 +1,3 @@
-# Math 4610 software manual
-
-Table of contents that can guide the user throughout all the code/programs contained in this repository.
-
 ## Basic Routines
 
 The basic routines and methods/functions that will be used throughout this course.
